@@ -37,8 +37,10 @@ struct node * createList(int num) {
 	}
 	return head;
 }
+
 int main(){
-	
+
+	insertAtEveryKthNode(createList(289),1);
 	//Test InsertAtEveryKthNode
 
 	//Test LinkedListMedian
