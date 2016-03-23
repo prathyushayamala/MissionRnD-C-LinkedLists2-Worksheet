@@ -40,7 +40,7 @@ struct node * createList(int num) {
 
 int main(){
 
-	insertAtEveryKthNode(createList(289),1);
+	struct node* res=merge2LinkedLists(createList(123), createList(123));
 	//Test InsertAtEveryKthNode
 
 	//Test LinkedListMedian
